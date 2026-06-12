@@ -9,7 +9,7 @@ API_KEY = ""
 PROVIDER = "openai-compatible"
 BASE_URL = ""
 MODEL = "kimi-k2.6"
-DATASETS = ["coding/mbpp", "coding/coding-full", "math/math-full", "science/science-full"]
+DATASETS = ["coding", "math", "science"]
 
 if __name__ == "__main__":
     args = parse_args(DATASETS)

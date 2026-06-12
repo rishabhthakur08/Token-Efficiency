@@ -9,7 +9,7 @@ API_KEY = ""
 PROVIDER = "openai-compatible"
 BASE_URL = "https://api.openai.com/v1"
 MODEL = "gpt-5.5-xhigh"
-DATASETS = ["coding/mbpp", "coding/coding-full", "math/math-full", "science/science-full"]
+DATASETS = ["coding", "math", "science"]
 
 if __name__ == "__main__":
     args = parse_args(DATASETS)

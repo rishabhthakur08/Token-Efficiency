@@ -9,13 +9,12 @@ sys.path.append(str(ROOT))
 from src.features import extract_features
 
 DATASETS = {
-    "math":    ROOT / "data" / "prompts" / "math"    / "math-full.jsonl",
-    "coding":  ROOT / "data" / "prompts" / "coding"  / "coding-full.jsonl",
-    "mbpp":    ROOT / "data" / "prompts" / "coding"  / "mbpp.jsonl",
-    "science": ROOT / "data" / "prompts" / "science" / "science-full.jsonl",
+    "math":    ROOT / "data" / "prompts" / "math-full.jsonl",
+    "coding":  ROOT / "data" / "prompts" / "coding-full.jsonl",
+    "science": ROOT / "data" / "prompts" / "science-full.jsonl",
 }
 
-OUTPUT_DIR = ROOT / "data" / "features"
+OUTPUT_DIR = ROOT / "data" / "prompt_features"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

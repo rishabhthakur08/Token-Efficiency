@@ -9,7 +9,7 @@ API_KEY = ""
 PROVIDER = "gemini"
 BASE_URL = "https://generativelanguage.googleapis.com"
 MODEL = "gemini-2.5-flash"
-DATASETS = ["coding/mbpp", "coding/coding-full", "math/math-full", "science/science-full"]
+DATASETS = ["coding", "math", "science"]
 
 if __name__ == "__main__":
     args = parse_args(DATASETS)
