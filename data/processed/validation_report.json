@@ -1,0 +1,255 @@
+{
+  "status": "valid",
+  "models": [
+    "Claude-Opus-4.6",
+    "Claude-Opus-4.7",
+    "Claude-Sonnet-4.6",
+    "DeepSeek-v4-flash-max",
+    "GPT-5.4-medium",
+    "GPT-5.5-medium",
+    "GPT-5.5-xhigh",
+    "Gemini-2.5-Flash",
+    "Gemini-3-Flash",
+    "Gemini-3.1-Pro",
+    "Gemma-4-31B-IT",
+    "Kimi-K2.6",
+    "MiniMax-M2.7",
+    "Qwen3.5-397B-A17B",
+    "Qwen3.5-9B"
+  ],
+  "model_count": 15,
+  "datasets": [
+    "coding",
+    "math",
+    "science"
+  ],
+  "prompt_count": 1372,
+  "row_count": 20580,
+  "model_dataset_combinations": [
+    {
+      "model": "Claude-Opus-4.6",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "Claude-Opus-4.6",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "Claude-Opus-4.6",
+      "dataset": "science",
+      "rows": 198
+    },
+    {
+      "model": "Claude-Opus-4.7",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "Claude-Opus-4.7",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "Claude-Opus-4.7",
+      "dataset": "science",
+      "rows": 198
+    },
+    {
+      "model": "Claude-Sonnet-4.6",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "Claude-Sonnet-4.6",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "Claude-Sonnet-4.6",
+      "dataset": "science",
+      "rows": 198
+    },
+    {
+      "model": "DeepSeek-v4-flash-max",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "DeepSeek-v4-flash-max",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "DeepSeek-v4-flash-max",
+      "dataset": "science",
+      "rows": 198
+    },
+    {
+      "model": "GPT-5.4-medium",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "GPT-5.4-medium",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "GPT-5.4-medium",
+      "dataset": "science",
+      "rows": 198
+    },
+    {
+      "model": "GPT-5.5-medium",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "GPT-5.5-medium",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "GPT-5.5-medium",
+      "dataset": "science",
+      "rows": 198
+    },
+    {
+      "model": "GPT-5.5-xhigh",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "GPT-5.5-xhigh",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "GPT-5.5-xhigh",
+      "dataset": "science",
+      "rows": 198
+    },
+    {
+      "model": "Gemini-2.5-Flash",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "Gemini-2.5-Flash",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "Gemini-2.5-Flash",
+      "dataset": "science",
+      "rows": 198
+    },
+    {
+      "model": "Gemini-3-Flash",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "Gemini-3-Flash",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "Gemini-3-Flash",
+      "dataset": "science",
+      "rows": 198
+    },
+    {
+      "model": "Gemini-3.1-Pro",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "Gemini-3.1-Pro",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "Gemini-3.1-Pro",
+      "dataset": "science",
+      "rows": 198
+    },
+    {
+      "model": "Gemma-4-31B-IT",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "Gemma-4-31B-IT",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "Gemma-4-31B-IT",
+      "dataset": "science",
+      "rows": 198
+    },
+    {
+      "model": "Kimi-K2.6",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "Kimi-K2.6",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "Kimi-K2.6",
+      "dataset": "science",
+      "rows": 198
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "dataset": "science",
+      "rows": 198
+    },
+    {
+      "model": "Qwen3.5-397B-A17B",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "Qwen3.5-397B-A17B",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "Qwen3.5-397B-A17B",
+      "dataset": "science",
+      "rows": 198
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "coding",
+      "rows": 974
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "math",
+      "rows": 200
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "science",
+      "rows": 198
+    }
+  ]
+}

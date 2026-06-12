@@ -13,3 +13,4 @@ jupyter==1.1.1
 ipykernel==7.3.0
 requests==2.34.2
 tqdm==4.68.2
+pytest==9.0.2
