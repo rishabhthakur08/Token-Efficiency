@@ -17,7 +17,7 @@ from pathlib import Path
 from typing import Any
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 DATASETS = {
     "coding/mbpp": ROOT / "data" / "prompts" / "coding" / "mbpp.jsonl",
     "coding/coding-full": ROOT / "data" / "prompts" / "coding" / "coding-full.jsonl",

@@ -2,7 +2,7 @@
 from pathlib import Path
 import sys
 
-sys.path.append(str(Path(__file__).resolve().parents[1]))
+sys.path.append(str(Path(__file__).resolve().parents))
 from run_llm_experiment import parse_args, run_experiment
 
 API_KEY = ""
@@ -14,7 +14,7 @@ DATASETS = ["coding/mbpp", "coding/coding-full", "math/math-full", "science/scie
 if __name__ == "__main__":
     args = parse_args(DATASETS)
     run_experiment(
-        experiment_dir=Path(__file__).resolve().parent,
+        experiment_dir=Path(__file__).resolve().parents[2] / "data" / "token_counts" / "Gemini-3.1-Pro",
         provider=PROVIDER,
         api_key=API_KEY,
         base_url=BASE_URL,
