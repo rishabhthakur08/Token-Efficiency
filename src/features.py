@@ -65,12 +65,6 @@ def arrow_count(text: str) -> int:
     return text.count('-->') + text.count('->') + text.count('→')
 
 
-# --- coding prompt features ---
-
-def test_case_count(row: dict) -> int:
-    return len(row.get("test_list", []))
-
-
 # --- science/mc features ---
 
 def choice_count(text: str) -> int:
@@ -130,9 +124,6 @@ def extract_features(row: dict, dataset: str) -> dict:
         "question_mark_count":       question_mark_count(text),
         "uppercase_ratio":           uppercase_ratio(text),
         "arrow_count":               arrow_count(text),
-
-        # coding prompt
-        "test_case_count":           test_case_count(row),
 
         # science/mc
         "choice_count":              choice_count(text),
