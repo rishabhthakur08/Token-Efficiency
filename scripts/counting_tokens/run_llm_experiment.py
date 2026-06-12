@@ -19,10 +19,10 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 DATASETS = {
-    "coding/mbpp": ROOT / "data" / "coding" / "mbpp.jsonl",
-    "coding/coding-full": ROOT / "data" / "coding" / "coding-full.jsonl",
-    "math/math-full": ROOT / "data" / "math" / "math-full.jsonl",
-    "science/science-full": ROOT / "data" / "science" / "science-full.jsonl",
+    "coding/mbpp": ROOT / "data" / "prompts" / "coding" / "mbpp.jsonl",
+    "coding/coding-full": ROOT / "data" / "prompts" / "coding" / "coding-full.jsonl",
+    "math/math-full": ROOT / "data" / "prompts" / "math" / "math-full.jsonl",
+    "science/science-full": ROOT / "data" / "prompts" / "science" / "science-full.jsonl",
 }
 
 
